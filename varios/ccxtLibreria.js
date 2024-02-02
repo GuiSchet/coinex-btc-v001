@@ -31,7 +31,7 @@ const sellPosition = async (mercado, cantHoldeada, precisionAmount, precisionPri
         let orderBook = await exchange.fetchOrderBook(mercado);
         //console.log(orderBook);
         // limite volumen en mercado
-        let volumenBTC = 0.006;
+        let volumenBTC = 0.004;
         let volumenMERC = volumenBTC / orderBook['bids'][0][0];
         let vol = 0;
         for (let itemSell = 0; itemSell < orderBook['asks'].length; itemSell++) {
@@ -102,7 +102,7 @@ const buyer = async (mercadosBTC) => {
             try {
                 await sleep(2000);
                 //console.log(mercado);
-                let volumenBTC = 0.005;
+                let volumenBTC = 0.0035;
                 let volBid = 0;
                 let volAsk = 0;
                 let priceBid = 0;
@@ -140,7 +140,7 @@ const buyer = async (mercadosBTC) => {
             try {
                 await sleep(500);
                 let mercado = listaSpread[item];
-                let amount = 0.0005 / mercado[3];
+                let amount = 0.0003 / mercado[3];
                 //let precisionAmount = mercadosBTC[mercado]['precision']['amount'];
                 //amount = (Math.round(amount / precisionAmount)) * precisionAmount;
                 await exchange.createLimitBuyOrder (mercado[1], amount, mercado[3]);
