@@ -15,15 +15,18 @@ const exchange = new exchangeClass ({
 });
 
 const cancelOrders = async () => {
-    try {
-        console.log('Cancelando ordenes.');
-        await exchange.cancelAllOrders();
-        console.log('Ordenes canceladas sin errores.');
+    console.log('Cancelando ordenes.');
+    try{     
+        const orders = await exchange.fetchOpenOrders();
+        //console.log(orders);
+        for (const order in orders) {
+            //console.log(orders[order]['id'])
+            await exchange.cancelOrder(orders[order]['id'], orders[order]['symbol'])
+            console.log('Orden correctamente cancelada: ', orders[order]['symbol'])
+        }
+    } catch {
+        console.log('Error cargando ordenes para cancelar.')
     }
-    catch {
-        console.log('Error cancelando ordenes. REVISAR.');
-    }
-
 };
 
 const sellPosition = async (mercado, cantHoldeada, precisionAmount, precisionPrice) => {

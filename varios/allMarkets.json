@@ -1291,44 +1291,6 @@
       "trading_decimal": 8
     }
   },
-  "BEAMX/USDT": {
-    "id": "BEAMXUSDT",
-    "symbol": "BEAMX/USDT",
-    "base": "BEAMX",
-    "quote": "USDT",
-    "baseId": "BEAMX",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 100
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "BEAMXUSDT",
-      "min_amount": "100",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "BEAMX",
-      "trading_decimal": 8
-    }
-  },
   "OLT/USDT": {
     "id": "OLTUSDT",
     "symbol": "OLT/USDT",
@@ -1402,6 +1364,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 8,
       "trading_name": "XCN",
+      "trading_decimal": 8
+    }
+  },
+  "BEAMX/USDT": {
+    "id": "BEAMXUSDT",
+    "symbol": "BEAMX/USDT",
+    "base": "BEAMX",
+    "quote": "USDT",
+    "baseId": "BEAMX",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 100
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "BEAMXUSDT",
+      "min_amount": "100",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "BEAMX",
       "trading_decimal": 8
     }
   },
@@ -3077,44 +3077,6 @@
       "trading_decimal": 8
     }
   },
-  "CGPT/USDT": {
-    "id": "CGPTUSDT",
-    "symbol": "CGPT/USDT",
-    "base": "CGPT",
-    "quote": "USDT",
-    "baseId": "CGPT",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 10
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "CGPTUSDT",
-      "min_amount": "10",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "CGPT",
-      "trading_decimal": 8
-    }
-  },
   "ONT/BTC": {
     "id": "ONTBTC",
     "symbol": "ONT/BTC",
@@ -3188,6 +3150,44 @@
       "pricing_name": "BTC",
       "pricing_decimal": 10,
       "trading_name": "KAVA",
+      "trading_decimal": 8
+    }
+  },
+  "CGPT/USDT": {
+    "id": "CGPTUSDT",
+    "symbol": "CGPT/USDT",
+    "base": "CGPT",
+    "quote": "USDT",
+    "baseId": "CGPT",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 10
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "CGPTUSDT",
+      "min_amount": "10",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "CGPT",
       "trading_decimal": 8
     }
   },
@@ -4597,44 +4597,6 @@
       "trading_decimal": 2
     }
   },
-  "JST/USDT": {
-    "id": "JSTUSDT",
-    "symbol": "JST/USDT",
-    "base": "JST",
-    "quote": "USDT",
-    "baseId": "JST",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "JSTUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "JST",
-      "trading_decimal": 8
-    }
-  },
   "AR/USDT": {
     "id": "ARUSDT",
     "symbol": "AR/USDT",
@@ -4670,6 +4632,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "AR",
+      "trading_decimal": 8
+    }
+  },
+  "JST/USDT": {
+    "id": "JSTUSDT",
+    "symbol": "JST/USDT",
+    "base": "JST",
+    "quote": "USDT",
+    "baseId": "JST",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "JSTUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "JST",
       "trading_decimal": 8
     }
   },
@@ -4977,44 +4977,6 @@
       "trading_decimal": 8
     }
   },
-  "RBC/USDT": {
-    "id": "RBCUSDT",
-    "symbol": "RBC/USDT",
-    "base": "RBC",
-    "quote": "USDT",
-    "baseId": "RBC",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "RBCUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "RBC",
-      "trading_decimal": 8
-    }
-  },
   "CET/USDC": {
     "id": "CETUSDC",
     "symbol": "CET/USDC",
@@ -5088,6 +5050,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "WOM",
+      "trading_decimal": 8
+    }
+  },
+  "RBC/USDT": {
+    "id": "RBCUSDT",
+    "symbol": "RBC/USDT",
+    "base": "RBC",
+    "quote": "USDT",
+    "baseId": "RBC",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "RBCUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "RBC",
       "trading_decimal": 8
     }
   },
@@ -8169,44 +8169,6 @@
       "trading_decimal": 2
     }
   },
-  "ORBS/USDT": {
-    "id": "ORBSUSDT",
-    "symbol": "ORBS/USDT",
-    "base": "ORBS",
-    "quote": "USDT",
-    "baseId": "ORBS",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "ORBSUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "ORBS",
-      "trading_decimal": 8
-    }
-  },
   "OSMO/USDT": {
     "id": "OSMOUSDT",
     "symbol": "OSMO/USDT",
@@ -8242,6 +8204,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "OSMO",
+      "trading_decimal": 8
+    }
+  },
+  "ORBS/USDT": {
+    "id": "ORBSUSDT",
+    "symbol": "ORBS/USDT",
+    "base": "ORBS",
+    "quote": "USDT",
+    "baseId": "ORBS",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "ORBSUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "ORBS",
       "trading_decimal": 8
     }
   },
@@ -11703,44 +11703,6 @@
       "trading_decimal": 8
     }
   },
-  "IMGNAI/USDT": {
-    "id": "IMGNAIUSDT",
-    "symbol": "IMGNAI/USDT",
-    "base": "IMGNAI",
-    "quote": "USDT",
-    "baseId": "IMGNAI",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 100
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "IMGNAIUSDT",
-      "min_amount": "100",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "IMGNAI",
-      "trading_decimal": 8
-    }
-  },
   "KAVA/USDT": {
     "id": "KAVAUSDT",
     "symbol": "KAVA/USDT",
@@ -11890,6 +11852,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "PHA",
+      "trading_decimal": 8
+    }
+  },
+  "IMGNAI/USDT": {
+    "id": "IMGNAIUSDT",
+    "symbol": "IMGNAI/USDT",
+    "base": "IMGNAI",
+    "quote": "USDT",
+    "baseId": "IMGNAI",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 100
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "IMGNAIUSDT",
+      "min_amount": "100",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "IMGNAI",
       "trading_decimal": 8
     }
   },
@@ -18809,44 +18809,6 @@
       "trading_decimal": 8
     }
   },
-  "TIA/USDT": {
-    "id": "TIAUSDT",
-    "symbol": "TIA/USDT",
-    "base": "TIA",
-    "quote": "USDT",
-    "baseId": "TIA",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.002,
-    "maker": 0.002,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.0001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 0.1
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "TIAUSDT",
-      "min_amount": "0.1",
-      "maker_fee_rate": "0.002",
-      "taker_fee_rate": "0.002",
-      "pricing_name": "USDT",
-      "pricing_decimal": 4,
-      "trading_name": "TIA",
-      "trading_decimal": 8
-    }
-  },
   "DODO/USDT": {
     "id": "DODOUSDT",
     "symbol": "DODO/USDT",
@@ -18958,6 +18920,44 @@
       "pricing_name": "BTC",
       "pricing_decimal": 10,
       "trading_name": "KAS",
+      "trading_decimal": 8
+    }
+  },
+  "TIA/USDT": {
+    "id": "TIAUSDT",
+    "symbol": "TIA/USDT",
+    "base": "TIA",
+    "quote": "USDT",
+    "baseId": "TIA",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.002,
+    "maker": 0.002,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.0001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 0.1
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "TIAUSDT",
+      "min_amount": "0.1",
+      "maker_fee_rate": "0.002",
+      "taker_fee_rate": "0.002",
+      "pricing_name": "USDT",
+      "pricing_decimal": 4,
+      "trading_name": "TIA",
       "trading_decimal": 8
     }
   },
@@ -21165,44 +21165,6 @@
       "trading_decimal": 8
     }
   },
-  "SATS/USDT": {
-    "id": "SATSUSDT",
-    "symbol": "SATS/USDT",
-    "base": "SATS",
-    "quote": "USDT",
-    "baseId": "SATS",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 1e-10
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 5000000
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "SATSUSDT",
-      "min_amount": "5000000",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 10,
-      "trading_name": "SATS",
-      "trading_decimal": 8
-    }
-  },
   "REVV/USDT": {
     "id": "REVVUSDT",
     "symbol": "REVV/USDT",
@@ -21241,12 +21203,12 @@
       "trading_decimal": 8
     }
   },
-  "SHRAP/USDT": {
-    "id": "SHRAPUSDT",
-    "symbol": "SHRAP/USDT",
-    "base": "SHRAP",
+  "SATS/USDT": {
+    "id": "SATSUSDT",
+    "symbol": "SATS/USDT",
+    "base": "SATS",
     "quote": "USDT",
-    "baseId": "SHRAP",
+    "baseId": "SATS",
     "quoteId": "USDT",
     "type": "spot",
     "spot": true,
@@ -21258,24 +21220,24 @@
     "maker": 0.003,
     "precision": {
       "amount": 1e-8,
-      "price": 0.000001
+      "price": 1e-10
     },
     "limits": {
       "leverage": {},
       "amount": {
-        "min": 10
+        "min": 5000000
       },
       "price": {},
       "cost": {}
     },
     "info": {
-      "name": "SHRAPUSDT",
-      "min_amount": "10",
+      "name": "SATSUSDT",
+      "min_amount": "5000000",
       "maker_fee_rate": "0.003",
       "taker_fee_rate": "0.003",
       "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "SHRAP",
+      "pricing_decimal": 10,
+      "trading_name": "SATS",
       "trading_decimal": 8
     }
   },
@@ -21352,6 +21314,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "CVC",
+      "trading_decimal": 8
+    }
+  },
+  "SHRAP/USDT": {
+    "id": "SHRAPUSDT",
+    "symbol": "SHRAP/USDT",
+    "base": "SHRAP",
+    "quote": "USDT",
+    "baseId": "SHRAP",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 10
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "SHRAPUSDT",
+      "min_amount": "10",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "SHRAP",
       "trading_decimal": 8
     }
   },
@@ -21963,44 +21963,6 @@
       "trading_decimal": 8
     }
   },
-  "SOMM/USDT": {
-    "id": "SOMMUSDT",
-    "symbol": "SOMM/USDT",
-    "base": "SOMM",
-    "quote": "USDT",
-    "baseId": "SOMM",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 10
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "SOMMUSDT",
-      "min_amount": "10",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "SOMM",
-      "trading_decimal": 8
-    }
-  },
   "NEXO/USDT": {
     "id": "NEXOUSDT",
     "symbol": "NEXO/USDT",
@@ -22074,6 +22036,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "AGLD",
+      "trading_decimal": 8
+    }
+  },
+  "SOMM/USDT": {
+    "id": "SOMMUSDT",
+    "symbol": "SOMM/USDT",
+    "base": "SOMM",
+    "quote": "USDT",
+    "baseId": "SOMM",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 10
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "SOMMUSDT",
+      "min_amount": "10",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "SOMM",
       "trading_decimal": 8
     }
   },
@@ -22571,44 +22571,6 @@
       "trading_decimal": 8
     }
   },
-  "OMG/USDT": {
-    "id": "OMGUSDT",
-    "symbol": "OMG/USDT",
-    "base": "OMG",
-    "quote": "USDT",
-    "baseId": "OMG",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.002,
-    "maker": 0.002,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.0001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 5
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "OMGUSDT",
-      "min_amount": "5",
-      "maker_fee_rate": "0.002",
-      "taker_fee_rate": "0.002",
-      "pricing_name": "USDT",
-      "pricing_decimal": 4,
-      "trading_name": "OMG",
-      "trading_decimal": 8
-    }
-  },
   "POND/USDT": {
     "id": "PONDUSDT",
     "symbol": "POND/USDT",
@@ -22644,6 +22606,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "POND",
+      "trading_decimal": 8
+    }
+  },
+  "OMG/USDT": {
+    "id": "OMGUSDT",
+    "symbol": "OMG/USDT",
+    "base": "OMG",
+    "quote": "USDT",
+    "baseId": "OMG",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.002,
+    "maker": 0.002,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.0001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 5
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "OMGUSDT",
+      "min_amount": "5",
+      "maker_fee_rate": "0.002",
+      "taker_fee_rate": "0.002",
+      "pricing_name": "USDT",
+      "pricing_decimal": 4,
+      "trading_name": "OMG",
       "trading_decimal": 8
     }
   },
@@ -24015,44 +24015,6 @@
       "trading_decimal": 8
     }
   },
-  "SMURFCAT/USDT": {
-    "id": "SMURFCATUSDT",
-    "symbol": "SMURFCAT/USDT",
-    "base": "SMURFCAT",
-    "quote": "USDT",
-    "baseId": "SMURFCAT",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 1e-8
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50000
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "SMURFCATUSDT",
-      "min_amount": "50000",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 8,
-      "trading_name": "SMURFCAT",
-      "trading_decimal": 8
-    }
-  },
   "IOTX/BTC": {
     "id": "IOTXBTC",
     "symbol": "IOTX/BTC",
@@ -24126,6 +24088,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "ASTRO",
+      "trading_decimal": 8
+    }
+  },
+  "SMURFCAT/USDT": {
+    "id": "SMURFCATUSDT",
+    "symbol": "SMURFCAT/USDT",
+    "base": "SMURFCAT",
+    "quote": "USDT",
+    "baseId": "SMURFCAT",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 1e-8
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50000
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "SMURFCATUSDT",
+      "min_amount": "50000",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 8,
+      "trading_name": "SMURFCAT",
       "trading_decimal": 8
     }
   },
@@ -26219,44 +26219,6 @@
       "trading_decimal": 8
     }
   },
-  "STFX/USDT": {
-    "id": "STFXUSDT",
-    "symbol": "STFX/USDT",
-    "base": "STFX",
-    "quote": "USDT",
-    "baseId": "STFX",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "STFXUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "STFX",
-      "trading_decimal": 8
-    }
-  },
   "LINK/USDC": {
     "id": "LINKUSDC",
     "symbol": "LINK/USDC",
@@ -26330,6 +26292,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "SLIM",
+      "trading_decimal": 8
+    }
+  },
+  "STFX/USDT": {
+    "id": "STFXUSDT",
+    "symbol": "STFX/USDT",
+    "base": "STFX",
+    "quote": "USDT",
+    "baseId": "STFX",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "STFXUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "STFX",
       "trading_decimal": 8
     }
   },
@@ -32679,44 +32679,6 @@
       "trading_decimal": 8
     }
   },
-  "SHDW/USDT": {
-    "id": "SHDWUSDT",
-    "symbol": "SHDW/USDT",
-    "base": "SHDW",
-    "quote": "USDT",
-    "baseId": "SHDW",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.0001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 1
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "SHDWUSDT",
-      "min_amount": "1",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 4,
-      "trading_name": "SHDW",
-      "trading_decimal": 8
-    }
-  },
   "COMP/USDC": {
     "id": "COMPUSDC",
     "symbol": "COMP/USDC",
@@ -32752,6 +32714,44 @@
       "pricing_name": "USDC",
       "pricing_decimal": 2,
       "trading_name": "COMP",
+      "trading_decimal": 8
+    }
+  },
+  "SHDW/USDT": {
+    "id": "SHDWUSDT",
+    "symbol": "SHDW/USDT",
+    "base": "SHDW",
+    "quote": "USDT",
+    "baseId": "SHDW",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.0001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 1
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "SHDWUSDT",
+      "min_amount": "1",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 4,
+      "trading_name": "SHDW",
       "trading_decimal": 8
     }
   },
@@ -36517,44 +36517,6 @@
       "trading_decimal": 8
     }
   },
-  "ZTX/USDT": {
-    "id": "ZTXUSDT",
-    "symbol": "ZTX/USDT",
-    "base": "ZTX",
-    "quote": "USDT",
-    "baseId": "ZTX",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "ZTXUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "ZTX",
-      "trading_decimal": 8
-    }
-  },
   "AUDIO/USDT": {
     "id": "AUDIOUSDT",
     "symbol": "AUDIO/USDT",
@@ -36666,6 +36628,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "MCB",
+      "trading_decimal": 8
+    }
+  },
+  "ZTX/USDT": {
+    "id": "ZTXUSDT",
+    "symbol": "ZTX/USDT",
+    "base": "ZTX",
+    "quote": "USDT",
+    "baseId": "ZTX",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "ZTXUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "ZTX",
       "trading_decimal": 8
     }
   },
@@ -37885,44 +37885,6 @@
       "trading_decimal": 8
     }
   },
-  "PYTH/USDT": {
-    "id": "PYTHUSDT",
-    "symbol": "PYTH/USDT",
-    "base": "PYTH",
-    "quote": "USDT",
-    "baseId": "PYTH",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 5
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "PYTHUSDT",
-      "min_amount": "5",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "PYTH",
-      "trading_decimal": 8
-    }
-  },
   "BADGER/USDT": {
     "id": "BADGERUSDT",
     "symbol": "BADGER/USDT",
@@ -37996,6 +37958,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "ROUTE",
+      "trading_decimal": 8
+    }
+  },
+  "PYTH/USDT": {
+    "id": "PYTHUSDT",
+    "symbol": "PYTH/USDT",
+    "base": "PYTH",
+    "quote": "USDT",
+    "baseId": "PYTH",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 5
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "PYTHUSDT",
+      "min_amount": "5",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "PYTH",
       "trading_decimal": 8
     }
   },
@@ -42065,44 +42065,6 @@
       "trading_decimal": 8
     }
   },
-  "FLM/USDT": {
-    "id": "FLMUSDT",
-    "symbol": "FLM/USDT",
-    "base": "FLM",
-    "quote": "USDT",
-    "baseId": "FLM",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "FLMUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "FLM",
-      "trading_decimal": 8
-    }
-  },
   "XEC/USDC": {
     "id": "XECUSDC",
     "symbol": "XEC/USDC",
@@ -42138,6 +42100,44 @@
       "pricing_name": "USDC",
       "pricing_decimal": 8,
       "trading_name": "XEC",
+      "trading_decimal": 8
+    }
+  },
+  "FLM/USDT": {
+    "id": "FLMUSDT",
+    "symbol": "FLM/USDT",
+    "base": "FLM",
+    "quote": "USDT",
+    "baseId": "FLM",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "FLMUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "FLM",
       "trading_decimal": 8
     }
   },
@@ -43839,7 +43839,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "681333",
+      "open_interest_volume": "686337",
       "funding": {
         "interval": 28800,
         "max": "0.00375",
@@ -43911,7 +43911,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "249.4438",
+      "open_interest_volume": "245.8890",
       "funding": {
         "interval": 28800,
         "max": "0.00375",
@@ -44055,7 +44055,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "389266",
+      "open_interest_volume": "389232",
       "funding": {
         "interval": 28800,
         "max": "0.00375",
@@ -44127,7 +44127,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "1489.145",
+      "open_interest_volume": "1514.455",
       "funding": {
         "interval": 28800,
         "max": "0.00375",
@@ -44268,7 +44268,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "154764",
+      "open_interest_volume": "153008",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -44339,7 +44339,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "3618.23",
+      "open_interest_volume": "3430.05",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -44410,7 +44410,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "1730584",
+      "open_interest_volume": "1733843",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -44479,7 +44479,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "131818",
+      "open_interest_volume": "147752",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -44548,7 +44548,7 @@
       "multiplier": "1",
       "tick_size": "0.000000000001",
       "available": true,
-      "open_interest_volume": "843811875207693",
+      "open_interest_volume": "844697076833390",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -44617,7 +44617,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "664516",
+      "open_interest_volume": "686181",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -44686,7 +44686,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1143196",
+      "open_interest_volume": "1260634",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -44755,7 +44755,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "94326.5",
+      "open_interest_volume": "99786.5",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -44824,7 +44824,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "48484.2",
+      "open_interest_volume": "64424.9",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -44895,7 +44895,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "12683",
+      "open_interest_volume": "12803",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -44964,7 +44964,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "2535.1",
+      "open_interest_volume": "2514.1",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45035,7 +45035,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "53282",
+      "open_interest_volume": "59305",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -45104,7 +45104,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "53046",
+      "open_interest_volume": "47807",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45175,7 +45175,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "17168.5",
+      "open_interest_volume": "16923.7",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -45244,7 +45244,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "2097.57",
+      "open_interest_volume": "1872.78",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45313,7 +45313,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "257138",
+      "open_interest_volume": "257088",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45384,7 +45384,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "10072.6",
+      "open_interest_volume": "10409.3",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -45455,7 +45455,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "12837.3",
+      "open_interest_volume": "12530.7",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -45524,7 +45524,7 @@
       "multiplier": "1",
       "tick_size": "0.000000000001",
       "available": true,
-      "open_interest_volume": "74560807613824",
+      "open_interest_volume": "74716594527216",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45664,7 +45664,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "1217.28",
+      "open_interest_volume": "1214.00",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -45733,7 +45733,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "673494",
+      "open_interest_volume": "738126",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45802,7 +45802,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "97873",
+      "open_interest_volume": "99544",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45871,7 +45871,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "177782",
+      "open_interest_volume": "164447",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45942,7 +45942,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "1215.03",
+      "open_interest_volume": "1180.32",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -46011,7 +46011,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "28374888791",
+      "open_interest_volume": "27240081191",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46080,7 +46080,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "256.71",
+      "open_interest_volume": "252.20",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46149,7 +46149,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "41805841434",
+      "open_interest_volume": "41908820093",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46218,7 +46218,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "166996.2",
+      "open_interest_volume": "168357.8",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46287,7 +46287,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "46884",
+      "open_interest_volume": "47892",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46356,7 +46356,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1787800",
+      "open_interest_volume": "1767591",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46425,7 +46425,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "602460",
+      "open_interest_volume": "617852",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46496,7 +46496,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1162097",
+      "open_interest_volume": "1206537",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -46567,7 +46567,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "1813.36",
+      "open_interest_volume": "1803.91",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -46638,7 +46638,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "260644",
+      "open_interest_volume": "263122",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -46707,7 +46707,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "150030",
+      "open_interest_volume": "141961",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46776,7 +46776,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "2505.24",
+      "open_interest_volume": "2473.51",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46847,7 +46847,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "26550339",
+      "open_interest_volume": "26485861",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -46918,7 +46918,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "48657.8",
+      "open_interest_volume": "50590.8",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -46989,7 +46989,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "100436.8",
+      "open_interest_volume": "106301.7",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -47060,7 +47060,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "1033.20",
+      "open_interest_volume": "1000.71",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -47129,7 +47129,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "73129",
+      "open_interest_volume": "86840",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47198,7 +47198,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "3168.4",
+      "open_interest_volume": "3260.3",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47269,7 +47269,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "108452.0",
+      "open_interest_volume": "121165.3",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -47340,7 +47340,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "12460.0",
+      "open_interest_volume": "12281.1",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -47409,7 +47409,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "5448.5",
+      "open_interest_volume": "5625.9",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47478,7 +47478,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "165267",
+      "open_interest_volume": "189607",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47549,7 +47549,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "58114.0",
+      "open_interest_volume": "63099.3",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -47618,7 +47618,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "1618639295",
+      "open_interest_volume": "1741024831",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47687,7 +47687,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "66865.4",
+      "open_interest_volume": "65825.2",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47758,7 +47758,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "2082287",
+      "open_interest_volume": "2114073",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -47827,7 +47827,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "4944189",
+      "open_interest_volume": "4883438",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47896,7 +47896,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "5667.6",
+      "open_interest_volume": "5629.7",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47965,7 +47965,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "287212",
+      "open_interest_volume": "288239",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48034,7 +48034,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "534.1",
+      "open_interest_volume": "635.1",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48105,7 +48105,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "611186",
+      "open_interest_volume": "605373",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -48176,7 +48176,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "558195",
+      "open_interest_volume": "516968",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -48245,7 +48245,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "9563.5",
+      "open_interest_volume": "6111.0",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48314,7 +48314,7 @@
       "multiplier": "1",
       "tick_size": "0.00000001",
       "available": true,
-      "open_interest_volume": "7507356",
+      "open_interest_volume": "11903320",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48385,7 +48385,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "16864.7",
+      "open_interest_volume": "18878.5",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -48454,7 +48454,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "52976",
+      "open_interest_volume": "52627",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48523,7 +48523,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "83545",
+      "open_interest_volume": "80909",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48592,7 +48592,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "33959",
+      "open_interest_volume": "31899",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48661,7 +48661,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "5797",
+      "open_interest_volume": "5966",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48730,7 +48730,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "2040424",
+      "open_interest_volume": "2373573",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48799,7 +48799,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "376221",
+      "open_interest_volume": "380755",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48868,7 +48868,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "956018",
+      "open_interest_volume": "897239",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48937,7 +48937,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "2835321",
+      "open_interest_volume": "2844064",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49006,7 +49006,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "22931",
+      "open_interest_volume": "22658",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49075,7 +49075,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "23674.7",
+      "open_interest_volume": "20249.3",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49144,7 +49144,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "118866",
+      "open_interest_volume": "133911",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49213,7 +49213,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "13221691",
+      "open_interest_volume": "13275482",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49284,7 +49284,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "76919",
+      "open_interest_volume": "77426",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -49353,7 +49353,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "43424",
+      "open_interest_volume": "44171",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49422,7 +49422,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "848.45",
+      "open_interest_volume": "867.45",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49493,7 +49493,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "22048",
+      "open_interest_volume": "21520",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -49564,7 +49564,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "69237.9",
+      "open_interest_volume": "72614.1",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -49633,7 +49633,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "9469.5",
+      "open_interest_volume": "9490.0",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49702,7 +49702,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "74750",
+      "open_interest_volume": "74603",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49773,7 +49773,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "6254.85",
+      "open_interest_volume": "6129.34",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -49842,7 +49842,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "175974",
+      "open_interest_volume": "178051",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49913,7 +49913,7 @@
       "multiplier": "1",
       "tick_size": "0.00000001",
       "available": true,
-      "open_interest_volume": "1793447865",
+      "open_interest_volume": "1810428977",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -49982,7 +49982,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "29389",
+      "open_interest_volume": "26859",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50053,7 +50053,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "292099",
+      "open_interest_volume": "293864",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -50122,7 +50122,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "92233.9",
+      "open_interest_volume": "88211.0",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50191,7 +50191,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "11858",
+      "open_interest_volume": "11320",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50262,7 +50262,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "529668",
+      "open_interest_volume": "534771",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -50331,7 +50331,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1665333",
+      "open_interest_volume": "1711434",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50400,7 +50400,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "162.10",
+      "open_interest_volume": "157.62",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50469,7 +50469,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "107081",
+      "open_interest_volume": "107419",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50540,7 +50540,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "88.446",
+      "open_interest_volume": "87.679",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -50609,7 +50609,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "13387",
+      "open_interest_volume": "13640",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50678,7 +50678,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "626.18",
+      "open_interest_volume": "613.54",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50747,7 +50747,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "4426",
+      "open_interest_volume": "4270",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50818,7 +50818,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "123384",
+      "open_interest_volume": "123154",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -50889,7 +50889,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "7135.2",
+      "open_interest_volume": "7129.1",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -50958,7 +50958,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "18062",
+      "open_interest_volume": "17388",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51027,7 +51027,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "51584.8",
+      "open_interest_volume": "51668.6",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51096,7 +51096,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "2955456",
+      "open_interest_volume": "2961981",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51165,7 +51165,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "63263",
+      "open_interest_volume": "63018",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51236,7 +51236,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "70112",
+      "open_interest_volume": "66571",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -51305,7 +51305,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "6318.8",
+      "open_interest_volume": "6197.3",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51374,7 +51374,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "212661680031",
+      "open_interest_volume": "202885012850",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51443,7 +51443,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "246518",
+      "open_interest_volume": "278731",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51512,7 +51512,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "9254",
+      "open_interest_volume": "9248",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51581,7 +51581,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "10790",
+      "open_interest_volume": "11087",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51650,7 +51650,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "440662",
+      "open_interest_volume": "427109",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51721,7 +51721,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "39162",
+      "open_interest_volume": "40106",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -51790,7 +51790,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "674227",
+      "open_interest_volume": "702696",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51859,7 +51859,7 @@
       "multiplier": "1",
       "tick_size": "0.00000001",
       "available": true,
-      "open_interest_volume": "19150371",
+      "open_interest_volume": "17493819",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -51930,7 +51930,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "46983.9",
+      "open_interest_volume": "47138.5",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -52001,7 +52001,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "225521",
+      "open_interest_volume": "222752",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -52072,7 +52072,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "99881967752",
+      "open_interest_volume": "127007458603",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -52141,7 +52141,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "81360",
+      "open_interest_volume": "81892",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52210,7 +52210,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "131528",
+      "open_interest_volume": "138735",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52281,7 +52281,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "145391978090",
+      "open_interest_volume": "145138296866",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -52350,7 +52350,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "530946",
+      "open_interest_volume": "543713",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52419,7 +52419,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "10176.4",
+      "open_interest_volume": "10059.8",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52490,7 +52490,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "30771.66",
+      "open_interest_volume": "30536.08",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -52559,7 +52559,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "345.28",
+      "open_interest_volume": "344.26",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52628,7 +52628,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "272140",
+      "open_interest_volume": "252562",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52697,7 +52697,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "70581",
+      "open_interest_volume": "70472",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52766,7 +52766,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "91636",
+      "open_interest_volume": "98774",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52835,7 +52835,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "78302",
+      "open_interest_volume": "76234",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52904,7 +52904,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "40232.5",
+      "open_interest_volume": "47378.5",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52973,7 +52973,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "123687",
+      "open_interest_volume": "123183",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53042,7 +53042,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "418487",
+      "open_interest_volume": "400168",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53111,7 +53111,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "79369",
+      "open_interest_volume": "80596",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53180,7 +53180,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "5942.1",
+      "open_interest_volume": "5020.5",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53249,7 +53249,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "24258",
+      "open_interest_volume": "24413",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53318,7 +53318,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "710.52",
+      "open_interest_volume": "727.34",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53389,7 +53389,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1826799",
+      "open_interest_volume": "1784219",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -53458,7 +53458,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "21848.0",
+      "open_interest_volume": "17346.3",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53529,7 +53529,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "9337.1",
+      "open_interest_volume": "9223.9",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -53600,7 +53600,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1988950",
+      "open_interest_volume": "2001190",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -53669,7 +53669,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1799550",
+      "open_interest_volume": "1830527",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53738,7 +53738,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "68392.0",
+      "open_interest_volume": "66467.6",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53807,7 +53807,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "205978",
+      "open_interest_volume": "206389",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53876,7 +53876,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "33145",
+      "open_interest_volume": "32842",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -53945,7 +53945,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "184590",
+      "open_interest_volume": "194066",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -54014,7 +54014,7 @@
       "multiplier": "1",
       "tick_size": "0.00000001",
       "available": true,
-      "open_interest_volume": "405471453",
+      "open_interest_volume": "393288841",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -54085,7 +54085,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "1046141",
+      "open_interest_volume": "1099719",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -54156,7 +54156,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "589.27",
+      "open_interest_volume": "596.01",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -54227,7 +54227,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "2191057",
+      "open_interest_volume": "2211254",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -54298,7 +54298,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "28609",
+      "open_interest_volume": "26298",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -54367,7 +54367,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "6.0403",
+      "open_interest_volume": "6.1354",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -54438,7 +54438,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "3026.10",
+      "open_interest_volume": "3022.24",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -54507,7 +54507,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "2541.26",
+      "open_interest_volume": "2539.78",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -54576,7 +54576,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "3948417",
+      "open_interest_volume": "3636586",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -54645,7 +54645,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "236243",
+      "open_interest_volume": "217944",
       "funding": {
         "interval": 28800,
         "max": "0.015",
