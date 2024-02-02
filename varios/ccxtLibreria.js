@@ -127,7 +127,7 @@ const buyer = async (mercadosBTC) => {
                 priceAsk -= precisionPrice;
                 priceBid += precisionPrice;
                 let spread = priceAsk / priceBid;
-                if (spread > 1.025) {
+                if (spread > 1.1) {
                     console.log(mercado, '   ', priceAsk, '  ', priceBid, '  ', spread);
                     listaSpread.push([spread, mercado, priceAsk, priceBid]);
                 };
@@ -140,7 +140,7 @@ const buyer = async (mercadosBTC) => {
             try {
                 await sleep(500);
                 let mercado = listaSpread[item];
-                let amount = 0.001 / mercado[3];
+                let amount = 0.0005 / mercado[3];
                 //let precisionAmount = mercadosBTC[mercado]['precision']['amount'];
                 //amount = (Math.round(amount / precisionAmount)) * precisionAmount;
                 await exchange.createLimitBuyOrder (mercado[1], amount, mercado[3]);

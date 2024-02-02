@@ -22,7 +22,13 @@ const main = async () => {
 
 main();
 
+const mainPruebas = async () => {
+    const mercados = await exchange.loadMarkets();
+    const mercadosFiltro = filtroBaseBTC(mercados);
+    console.log(Object.keys(mercadosFiltro));
+};
 
+//mainPruebas();
 
 
 

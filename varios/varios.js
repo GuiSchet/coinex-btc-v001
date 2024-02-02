@@ -36,7 +36,7 @@ const allMarkets = () => {
 const filtroBaseBTC = (todo) => {
     let diccionario = {};
     for (let mercado in todo) {
-        if ((todo[mercado]['quote'] == 'BTC') & (todo[mercado]['info']['state'] == 'online')) {
+        if (todo[mercado]['quote'] == 'BTC') {
             diccionario[mercado] = todo[mercado];
         }
     }
