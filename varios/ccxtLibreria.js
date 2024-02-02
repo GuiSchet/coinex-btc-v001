@@ -15,7 +15,7 @@ const exchange = new exchangeClass ({
 });
 
 const cancelOrders = async () => {
-    console.log('Cancelando ordenes.');
+    console.log('Cancelando ordenes:');
     try{     
         const orders = await exchange.fetchOpenOrders();
         //console.log(orders);

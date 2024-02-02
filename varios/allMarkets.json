@@ -1291,6 +1291,44 @@
       "trading_decimal": 8
     }
   },
+  "BEAMX/USDT": {
+    "id": "BEAMXUSDT",
+    "symbol": "BEAMX/USDT",
+    "base": "BEAMX",
+    "quote": "USDT",
+    "baseId": "BEAMX",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 100
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "BEAMXUSDT",
+      "min_amount": "100",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "BEAMX",
+      "trading_decimal": 8
+    }
+  },
   "OLT/USDT": {
     "id": "OLTUSDT",
     "symbol": "OLT/USDT",
@@ -1364,44 +1402,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 8,
       "trading_name": "XCN",
-      "trading_decimal": 8
-    }
-  },
-  "BEAMX/USDT": {
-    "id": "BEAMXUSDT",
-    "symbol": "BEAMX/USDT",
-    "base": "BEAMX",
-    "quote": "USDT",
-    "baseId": "BEAMX",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 100
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "BEAMXUSDT",
-      "min_amount": "100",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "BEAMX",
       "trading_decimal": 8
     }
   },
@@ -3077,6 +3077,44 @@
       "trading_decimal": 8
     }
   },
+  "CGPT/USDT": {
+    "id": "CGPTUSDT",
+    "symbol": "CGPT/USDT",
+    "base": "CGPT",
+    "quote": "USDT",
+    "baseId": "CGPT",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 10
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "CGPTUSDT",
+      "min_amount": "10",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "CGPT",
+      "trading_decimal": 8
+    }
+  },
   "ONT/BTC": {
     "id": "ONTBTC",
     "symbol": "ONT/BTC",
@@ -3150,44 +3188,6 @@
       "pricing_name": "BTC",
       "pricing_decimal": 10,
       "trading_name": "KAVA",
-      "trading_decimal": 8
-    }
-  },
-  "CGPT/USDT": {
-    "id": "CGPTUSDT",
-    "symbol": "CGPT/USDT",
-    "base": "CGPT",
-    "quote": "USDT",
-    "baseId": "CGPT",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 10
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "CGPTUSDT",
-      "min_amount": "10",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "CGPT",
       "trading_decimal": 8
     }
   },
@@ -4597,44 +4597,6 @@
       "trading_decimal": 2
     }
   },
-  "AR/USDT": {
-    "id": "ARUSDT",
-    "symbol": "AR/USDT",
-    "base": "AR",
-    "quote": "USDT",
-    "baseId": "AR",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.002,
-    "maker": 0.002,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.0001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 0.5
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "ARUSDT",
-      "min_amount": "0.5",
-      "maker_fee_rate": "0.002",
-      "taker_fee_rate": "0.002",
-      "pricing_name": "USDT",
-      "pricing_decimal": 4,
-      "trading_name": "AR",
-      "trading_decimal": 8
-    }
-  },
   "JST/USDT": {
     "id": "JSTUSDT",
     "symbol": "JST/USDT",
@@ -4670,6 +4632,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "JST",
+      "trading_decimal": 8
+    }
+  },
+  "AR/USDT": {
+    "id": "ARUSDT",
+    "symbol": "AR/USDT",
+    "base": "AR",
+    "quote": "USDT",
+    "baseId": "AR",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.002,
+    "maker": 0.002,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.0001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 0.5
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "ARUSDT",
+      "min_amount": "0.5",
+      "maker_fee_rate": "0.002",
+      "taker_fee_rate": "0.002",
+      "pricing_name": "USDT",
+      "pricing_decimal": 4,
+      "trading_name": "AR",
       "trading_decimal": 8
     }
   },
@@ -4977,6 +4977,44 @@
       "trading_decimal": 8
     }
   },
+  "RBC/USDT": {
+    "id": "RBCUSDT",
+    "symbol": "RBC/USDT",
+    "base": "RBC",
+    "quote": "USDT",
+    "baseId": "RBC",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "RBCUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "RBC",
+      "trading_decimal": 8
+    }
+  },
   "CET/USDC": {
     "id": "CETUSDC",
     "symbol": "CET/USDC",
@@ -5050,44 +5088,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "WOM",
-      "trading_decimal": 8
-    }
-  },
-  "RBC/USDT": {
-    "id": "RBCUSDT",
-    "symbol": "RBC/USDT",
-    "base": "RBC",
-    "quote": "USDT",
-    "baseId": "RBC",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "RBCUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "RBC",
       "trading_decimal": 8
     }
   },
@@ -8169,44 +8169,6 @@
       "trading_decimal": 2
     }
   },
-  "OSMO/USDT": {
-    "id": "OSMOUSDT",
-    "symbol": "OSMO/USDT",
-    "base": "OSMO",
-    "quote": "USDT",
-    "baseId": "OSMO",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.0001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 1
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "OSMOUSDT",
-      "min_amount": "1",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 4,
-      "trading_name": "OSMO",
-      "trading_decimal": 8
-    }
-  },
   "ORBS/USDT": {
     "id": "ORBSUSDT",
     "symbol": "ORBS/USDT",
@@ -8242,6 +8204,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "ORBS",
+      "trading_decimal": 8
+    }
+  },
+  "OSMO/USDT": {
+    "id": "OSMOUSDT",
+    "symbol": "OSMO/USDT",
+    "base": "OSMO",
+    "quote": "USDT",
+    "baseId": "OSMO",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.0001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 1
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "OSMOUSDT",
+      "min_amount": "1",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 4,
+      "trading_name": "OSMO",
       "trading_decimal": 8
     }
   },
@@ -11703,6 +11703,44 @@
       "trading_decimal": 8
     }
   },
+  "IMGNAI/USDT": {
+    "id": "IMGNAIUSDT",
+    "symbol": "IMGNAI/USDT",
+    "base": "IMGNAI",
+    "quote": "USDT",
+    "baseId": "IMGNAI",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 100
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "IMGNAIUSDT",
+      "min_amount": "100",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "IMGNAI",
+      "trading_decimal": 8
+    }
+  },
   "KAVA/USDT": {
     "id": "KAVAUSDT",
     "symbol": "KAVA/USDT",
@@ -11852,44 +11890,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "PHA",
-      "trading_decimal": 8
-    }
-  },
-  "IMGNAI/USDT": {
-    "id": "IMGNAIUSDT",
-    "symbol": "IMGNAI/USDT",
-    "base": "IMGNAI",
-    "quote": "USDT",
-    "baseId": "IMGNAI",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 100
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "IMGNAIUSDT",
-      "min_amount": "100",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "IMGNAI",
       "trading_decimal": 8
     }
   },
@@ -18809,6 +18809,44 @@
       "trading_decimal": 8
     }
   },
+  "TIA/USDT": {
+    "id": "TIAUSDT",
+    "symbol": "TIA/USDT",
+    "base": "TIA",
+    "quote": "USDT",
+    "baseId": "TIA",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.002,
+    "maker": 0.002,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.0001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 0.1
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "TIAUSDT",
+      "min_amount": "0.1",
+      "maker_fee_rate": "0.002",
+      "taker_fee_rate": "0.002",
+      "pricing_name": "USDT",
+      "pricing_decimal": 4,
+      "trading_name": "TIA",
+      "trading_decimal": 8
+    }
+  },
   "DODO/USDT": {
     "id": "DODOUSDT",
     "symbol": "DODO/USDT",
@@ -18920,44 +18958,6 @@
       "pricing_name": "BTC",
       "pricing_decimal": 10,
       "trading_name": "KAS",
-      "trading_decimal": 8
-    }
-  },
-  "TIA/USDT": {
-    "id": "TIAUSDT",
-    "symbol": "TIA/USDT",
-    "base": "TIA",
-    "quote": "USDT",
-    "baseId": "TIA",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.002,
-    "maker": 0.002,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.0001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 0.1
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "TIAUSDT",
-      "min_amount": "0.1",
-      "maker_fee_rate": "0.002",
-      "taker_fee_rate": "0.002",
-      "pricing_name": "USDT",
-      "pricing_decimal": 4,
-      "trading_name": "TIA",
       "trading_decimal": 8
     }
   },
@@ -21165,6 +21165,44 @@
       "trading_decimal": 8
     }
   },
+  "SATS/USDT": {
+    "id": "SATSUSDT",
+    "symbol": "SATS/USDT",
+    "base": "SATS",
+    "quote": "USDT",
+    "baseId": "SATS",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 1e-10
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 5000000
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "SATSUSDT",
+      "min_amount": "5000000",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 10,
+      "trading_name": "SATS",
+      "trading_decimal": 8
+    }
+  },
   "REVV/USDT": {
     "id": "REVVUSDT",
     "symbol": "REVV/USDT",
@@ -21203,12 +21241,12 @@
       "trading_decimal": 8
     }
   },
-  "SATS/USDT": {
-    "id": "SATSUSDT",
-    "symbol": "SATS/USDT",
-    "base": "SATS",
+  "SHRAP/USDT": {
+    "id": "SHRAPUSDT",
+    "symbol": "SHRAP/USDT",
+    "base": "SHRAP",
     "quote": "USDT",
-    "baseId": "SATS",
+    "baseId": "SHRAP",
     "quoteId": "USDT",
     "type": "spot",
     "spot": true,
@@ -21220,24 +21258,24 @@
     "maker": 0.003,
     "precision": {
       "amount": 1e-8,
-      "price": 1e-10
+      "price": 0.000001
     },
     "limits": {
       "leverage": {},
       "amount": {
-        "min": 5000000
+        "min": 10
       },
       "price": {},
       "cost": {}
     },
     "info": {
-      "name": "SATSUSDT",
-      "min_amount": "5000000",
+      "name": "SHRAPUSDT",
+      "min_amount": "10",
       "maker_fee_rate": "0.003",
       "taker_fee_rate": "0.003",
       "pricing_name": "USDT",
-      "pricing_decimal": 10,
-      "trading_name": "SATS",
+      "pricing_decimal": 6,
+      "trading_name": "SHRAP",
       "trading_decimal": 8
     }
   },
@@ -21314,44 +21352,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "CVC",
-      "trading_decimal": 8
-    }
-  },
-  "SHRAP/USDT": {
-    "id": "SHRAPUSDT",
-    "symbol": "SHRAP/USDT",
-    "base": "SHRAP",
-    "quote": "USDT",
-    "baseId": "SHRAP",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 10
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "SHRAPUSDT",
-      "min_amount": "10",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "SHRAP",
       "trading_decimal": 8
     }
   },
@@ -21963,6 +21963,44 @@
       "trading_decimal": 8
     }
   },
+  "SOMM/USDT": {
+    "id": "SOMMUSDT",
+    "symbol": "SOMM/USDT",
+    "base": "SOMM",
+    "quote": "USDT",
+    "baseId": "SOMM",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 10
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "SOMMUSDT",
+      "min_amount": "10",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "SOMM",
+      "trading_decimal": 8
+    }
+  },
   "NEXO/USDT": {
     "id": "NEXOUSDT",
     "symbol": "NEXO/USDT",
@@ -22036,44 +22074,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "AGLD",
-      "trading_decimal": 8
-    }
-  },
-  "SOMM/USDT": {
-    "id": "SOMMUSDT",
-    "symbol": "SOMM/USDT",
-    "base": "SOMM",
-    "quote": "USDT",
-    "baseId": "SOMM",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 10
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "SOMMUSDT",
-      "min_amount": "10",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "SOMM",
       "trading_decimal": 8
     }
   },
@@ -22571,44 +22571,6 @@
       "trading_decimal": 8
     }
   },
-  "POND/USDT": {
-    "id": "PONDUSDT",
-    "symbol": "POND/USDT",
-    "base": "POND",
-    "quote": "USDT",
-    "baseId": "POND",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "PONDUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "POND",
-      "trading_decimal": 8
-    }
-  },
   "OMG/USDT": {
     "id": "OMGUSDT",
     "symbol": "OMG/USDT",
@@ -22644,6 +22606,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "OMG",
+      "trading_decimal": 8
+    }
+  },
+  "POND/USDT": {
+    "id": "PONDUSDT",
+    "symbol": "POND/USDT",
+    "base": "POND",
+    "quote": "USDT",
+    "baseId": "POND",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "PONDUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "POND",
       "trading_decimal": 8
     }
   },
@@ -24015,6 +24015,44 @@
       "trading_decimal": 8
     }
   },
+  "SMURFCAT/USDT": {
+    "id": "SMURFCATUSDT",
+    "symbol": "SMURFCAT/USDT",
+    "base": "SMURFCAT",
+    "quote": "USDT",
+    "baseId": "SMURFCAT",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 1e-8
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50000
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "SMURFCATUSDT",
+      "min_amount": "50000",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 8,
+      "trading_name": "SMURFCAT",
+      "trading_decimal": 8
+    }
+  },
   "IOTX/BTC": {
     "id": "IOTXBTC",
     "symbol": "IOTX/BTC",
@@ -24088,44 +24126,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "ASTRO",
-      "trading_decimal": 8
-    }
-  },
-  "SMURFCAT/USDT": {
-    "id": "SMURFCATUSDT",
-    "symbol": "SMURFCAT/USDT",
-    "base": "SMURFCAT",
-    "quote": "USDT",
-    "baseId": "SMURFCAT",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 1e-8
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50000
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "SMURFCATUSDT",
-      "min_amount": "50000",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 8,
-      "trading_name": "SMURFCAT",
       "trading_decimal": 8
     }
   },
@@ -26219,6 +26219,44 @@
       "trading_decimal": 8
     }
   },
+  "STFX/USDT": {
+    "id": "STFXUSDT",
+    "symbol": "STFX/USDT",
+    "base": "STFX",
+    "quote": "USDT",
+    "baseId": "STFX",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "STFXUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "STFX",
+      "trading_decimal": 8
+    }
+  },
   "LINK/USDC": {
     "id": "LINKUSDC",
     "symbol": "LINK/USDC",
@@ -26292,44 +26330,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "SLIM",
-      "trading_decimal": 8
-    }
-  },
-  "STFX/USDT": {
-    "id": "STFXUSDT",
-    "symbol": "STFX/USDT",
-    "base": "STFX",
-    "quote": "USDT",
-    "baseId": "STFX",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "STFXUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "STFX",
       "trading_decimal": 8
     }
   },
@@ -32679,44 +32679,6 @@
       "trading_decimal": 8
     }
   },
-  "COMP/USDC": {
-    "id": "COMPUSDC",
-    "symbol": "COMP/USDC",
-    "base": "COMP",
-    "quote": "USDC",
-    "baseId": "COMP",
-    "quoteId": "USDC",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.002,
-    "maker": 0.002,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.01
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 0.05
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "COMPUSDC",
-      "min_amount": "0.05",
-      "maker_fee_rate": "0.002",
-      "taker_fee_rate": "0.002",
-      "pricing_name": "USDC",
-      "pricing_decimal": 2,
-      "trading_name": "COMP",
-      "trading_decimal": 8
-    }
-  },
   "SHDW/USDT": {
     "id": "SHDWUSDT",
     "symbol": "SHDW/USDT",
@@ -32752,6 +32714,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "SHDW",
+      "trading_decimal": 8
+    }
+  },
+  "COMP/USDC": {
+    "id": "COMPUSDC",
+    "symbol": "COMP/USDC",
+    "base": "COMP",
+    "quote": "USDC",
+    "baseId": "COMP",
+    "quoteId": "USDC",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.002,
+    "maker": 0.002,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.01
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 0.05
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "COMPUSDC",
+      "min_amount": "0.05",
+      "maker_fee_rate": "0.002",
+      "taker_fee_rate": "0.002",
+      "pricing_name": "USDC",
+      "pricing_decimal": 2,
+      "trading_name": "COMP",
       "trading_decimal": 8
     }
   },
@@ -36517,6 +36517,44 @@
       "trading_decimal": 8
     }
   },
+  "ZTX/USDT": {
+    "id": "ZTXUSDT",
+    "symbol": "ZTX/USDT",
+    "base": "ZTX",
+    "quote": "USDT",
+    "baseId": "ZTX",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "ZTXUSDT",
+      "min_amount": "50",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "ZTX",
+      "trading_decimal": 8
+    }
+  },
   "AUDIO/USDT": {
     "id": "AUDIOUSDT",
     "symbol": "AUDIO/USDT",
@@ -36628,44 +36666,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "MCB",
-      "trading_decimal": 8
-    }
-  },
-  "ZTX/USDT": {
-    "id": "ZTXUSDT",
-    "symbol": "ZTX/USDT",
-    "base": "ZTX",
-    "quote": "USDT",
-    "baseId": "ZTX",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "ZTXUSDT",
-      "min_amount": "50",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "ZTX",
       "trading_decimal": 8
     }
   },
@@ -37885,6 +37885,44 @@
       "trading_decimal": 8
     }
   },
+  "PYTH/USDT": {
+    "id": "PYTHUSDT",
+    "symbol": "PYTH/USDT",
+    "base": "PYTH",
+    "quote": "USDT",
+    "baseId": "PYTH",
+    "quoteId": "USDT",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.003,
+    "maker": 0.003,
+    "precision": {
+      "amount": 1e-8,
+      "price": 0.000001
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 5
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "PYTHUSDT",
+      "min_amount": "5",
+      "maker_fee_rate": "0.003",
+      "taker_fee_rate": "0.003",
+      "pricing_name": "USDT",
+      "pricing_decimal": 6,
+      "trading_name": "PYTH",
+      "trading_decimal": 8
+    }
+  },
   "BADGER/USDT": {
     "id": "BADGERUSDT",
     "symbol": "BADGER/USDT",
@@ -37958,44 +37996,6 @@
       "pricing_name": "USDT",
       "pricing_decimal": 4,
       "trading_name": "ROUTE",
-      "trading_decimal": 8
-    }
-  },
-  "PYTH/USDT": {
-    "id": "PYTHUSDT",
-    "symbol": "PYTH/USDT",
-    "base": "PYTH",
-    "quote": "USDT",
-    "baseId": "PYTH",
-    "quoteId": "USDT",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.003,
-    "maker": 0.003,
-    "precision": {
-      "amount": 1e-8,
-      "price": 0.000001
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 5
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "PYTHUSDT",
-      "min_amount": "5",
-      "maker_fee_rate": "0.003",
-      "taker_fee_rate": "0.003",
-      "pricing_name": "USDT",
-      "pricing_decimal": 6,
-      "trading_name": "PYTH",
       "trading_decimal": 8
     }
   },
@@ -42065,44 +42065,6 @@
       "trading_decimal": 8
     }
   },
-  "XEC/USDC": {
-    "id": "XECUSDC",
-    "symbol": "XEC/USDC",
-    "base": "XEC",
-    "quote": "USDC",
-    "baseId": "XEC",
-    "quoteId": "USDC",
-    "type": "spot",
-    "spot": true,
-    "swap": false,
-    "future": false,
-    "option": false,
-    "contract": false,
-    "taker": 0.002,
-    "maker": 0.002,
-    "precision": {
-      "amount": 1e-8,
-      "price": 1e-8
-    },
-    "limits": {
-      "leverage": {},
-      "amount": {
-        "min": 50000
-      },
-      "price": {},
-      "cost": {}
-    },
-    "info": {
-      "name": "XECUSDC",
-      "min_amount": "50000",
-      "maker_fee_rate": "0.002",
-      "taker_fee_rate": "0.002",
-      "pricing_name": "USDC",
-      "pricing_decimal": 8,
-      "trading_name": "XEC",
-      "trading_decimal": 8
-    }
-  },
   "FLM/USDT": {
     "id": "FLMUSDT",
     "symbol": "FLM/USDT",
@@ -42138,6 +42100,44 @@
       "pricing_name": "USDT",
       "pricing_decimal": 6,
       "trading_name": "FLM",
+      "trading_decimal": 8
+    }
+  },
+  "XEC/USDC": {
+    "id": "XECUSDC",
+    "symbol": "XEC/USDC",
+    "base": "XEC",
+    "quote": "USDC",
+    "baseId": "XEC",
+    "quoteId": "USDC",
+    "type": "spot",
+    "spot": true,
+    "swap": false,
+    "future": false,
+    "option": false,
+    "contract": false,
+    "taker": 0.002,
+    "maker": 0.002,
+    "precision": {
+      "amount": 1e-8,
+      "price": 1e-8
+    },
+    "limits": {
+      "leverage": {},
+      "amount": {
+        "min": 50000
+      },
+      "price": {},
+      "cost": {}
+    },
+    "info": {
+      "name": "XECUSDC",
+      "min_amount": "50000",
+      "maker_fee_rate": "0.002",
+      "taker_fee_rate": "0.002",
+      "pricing_name": "USDC",
+      "pricing_decimal": 8,
+      "trading_name": "XEC",
       "trading_decimal": 8
     }
   },
@@ -43839,7 +43839,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "686337",
+      "open_interest_volume": "686366",
       "funding": {
         "interval": 28800,
         "max": "0.00375",
@@ -43911,7 +43911,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "245.8890",
+      "open_interest_volume": "245.8741",
       "funding": {
         "interval": 28800,
         "max": "0.00375",
@@ -44127,7 +44127,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "1514.455",
+      "open_interest_volume": "1517.005",
       "funding": {
         "interval": 28800,
         "max": "0.00375",
@@ -44824,7 +44824,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "64424.9",
+      "open_interest_volume": "64701.9",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45244,7 +45244,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "1872.78",
+      "open_interest_volume": "1836.30",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -45384,7 +45384,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "10409.3",
+      "open_interest_volume": "10408.6",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -45733,7 +45733,7 @@
       "multiplier": "1",
       "tick_size": "0.000001",
       "available": true,
-      "open_interest_volume": "738126",
+      "open_interest_volume": "737616",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -46011,7 +46011,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "27240081191",
+      "open_interest_volume": "27239381191",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -47758,7 +47758,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "2114073",
+      "open_interest_volume": "2114653",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -47965,7 +47965,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "288239",
+      "open_interest_volume": "287807",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48245,7 +48245,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "6111.0",
+      "open_interest_volume": "5979.2",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -48385,7 +48385,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "18878.5",
+      "open_interest_volume": "18857.0",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -48592,7 +48592,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "31899",
+      "open_interest_volume": "31594",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49422,7 +49422,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "867.45",
+      "open_interest_volume": "868.45",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -49564,7 +49564,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "72614.1",
+      "open_interest_volume": "72551.9",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -50122,7 +50122,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "88211.0",
+      "open_interest_volume": "92150.7",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -50262,7 +50262,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "534771",
+      "open_interest_volume": "534751",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -51721,7 +51721,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "40106",
+      "open_interest_volume": "40175",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -52072,7 +52072,7 @@
       "multiplier": "1",
       "tick_size": "0.0000000001",
       "available": true,
-      "open_interest_volume": "127007458603",
+      "open_interest_volume": "128694190866",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
@@ -52141,7 +52141,7 @@
       "multiplier": "1",
       "tick_size": "0.0001",
       "available": true,
-      "open_interest_volume": "81892",
+      "open_interest_volume": "81891",
       "funding": {
         "interval": 28800,
         "max": "0.015",
@@ -52490,7 +52490,7 @@
       "multiplier": "1",
       "tick_size": "0.01",
       "available": true,
-      "open_interest_volume": "30536.08",
+      "open_interest_volume": "30477.36",
       "funding": {
         "interval": 28800,
         "max": "0.0075",
